@@ -1,6 +1,6 @@
-- type: entity
+- type: entity #
   name: Typewriter
-  parent: BaseWeaponSubMachineGun
+  parent: [BaseWeaponSubMachineGun, BaseGunWieldable]  #because Choko has a skill issue   Floof change SINCE added the BasedGunWieldable so it can bolt instead of just unweilding
   id: WeaponSubMachineGunTypewriter
   description: A modern take on the classic design used by mobsters throughout space and time. Types .35 auto ammo.
   components:
