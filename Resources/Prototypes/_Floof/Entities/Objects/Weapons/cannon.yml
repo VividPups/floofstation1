@@ -1,0 +1,22 @@
+- type: entity
+  id: ShuttleGunTriPirateCannon
+  parent: ShuttleGunPirateCannon
+  name: Tri-barrel pirate ship cannon
+  description: Kaboom, Kaboom, Kaboom!
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Weapons/Shuttles/tribarrelcannon.rsi
+    layers:
+    - state: tricannon
+  - type: Gun
+    fireRate: 1
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/mateba.ogg
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+        - CannonBall
+    capacity: 3
+    proto: CannonBall
+    soundInsert:
+      path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.og
