@@ -109,3 +109,18 @@
     - id: ClothingOuterHardsuitSurgeonGeneral
     - id: DrinkBloodGlass
       amount: 2
+
+- type: entity
+  id: LockerCannonballsFilled
+  parent: N14CrateWooden
+  name: cannon balls
+  suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+    - id: CannonBall
+      amount: 20
+    - id: CannonBallGrapeshot
+      amount: 5
+    - id: CannonBallGlassshot
+      amount: 5
