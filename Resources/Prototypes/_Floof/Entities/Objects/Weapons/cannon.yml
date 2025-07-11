@@ -19,4 +19,4 @@
     capacity: 3
     proto: CannonBall
     soundInsert:
-      path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.og
+      path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.ogg
